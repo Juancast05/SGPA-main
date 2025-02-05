@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="empresa.css">
-    <title>Empresas</title>
+    <title>Registrar Empresa</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
 
                 <ul class="list_show">
                     <li class="list_inside">
-                        <a href="./registrar_empresa.php" class="nav_link nav_link--inside">Registrar</a>
+                        <a href="#" class="nav_link nav_link--inside">Registrar</a>
                     </li>
 
                     <li class="list_inside">
@@ -46,7 +46,7 @@
                     </li>
 
                     <li class="list_inside">
-                        <a href="./listado_empresa.php" class="nav_link nav_link--inside">Ver listado</a>
+                        <a href="listado_empresa.php" class="nav_link nav_link--inside">Ver listado</a>
                     </li>
 
                 </ul>
@@ -54,9 +54,39 @@
             </li>
         </ul>
     </nav>
+    <br><br><br>
+    <h1>Registrar Empresa</h1>
+    <form action="./controlador_empresa.php" method="POST">
+    <div class="form-group">
+            <div>
+                <label for="">Nombre de la empresa:</label><br>
+                <input type="text" name="Nombre_empresa"><br>
+            </div>
 
+            <div>
+                <label for="">NIT de la empresa:</label><br>
+                <input type="text" name="NIT"><br>
+            </div>
+
+            <div>
+                <label for="">Correo de la empresa:</label><br>
+                <input type="email" name="Correo_empresa"><br>
+            </div>
+
+            <div><label for="">Teléfono de la empresa:</label><br>
+                <input type="text" name="Telefono_empresa"><br>
+            </div>
+
+            <div>
+                <label for="">Dirección de la empresa:</label><br>
+                <input type="text" name="Direccion_empresa"><br>
+            </div>
+
+        </div>
+        <input type="submit" name="RegistrarEmpresa" value="Registrar Empresa">
+    </form>
 
     <script src="empresa.js"></script>
 </body>
 
-</html>
+</html> 
