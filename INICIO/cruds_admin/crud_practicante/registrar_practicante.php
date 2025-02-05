@@ -12,9 +12,9 @@
 
     <div class="carousel">
         <div class="carousel-images">
-            <img src="./assets/img/img1.jpg" alt="Imagen 1">
-            <img src="./assets/img/oriente-antioqueno.jpg" alt="Imagen 2">
-            <img src="./assets/img/sena1.jpg" alt="Imagen 3">
+            <img src="../../img/img1.jpg" alt="Imagen 1">
+            <img src="../../img/oriente-antioqueno.jpg" alt="Imagen 2">
+            <img src="../../img/sena1.jpg" alt="Imagen 3">
         </div>
     </div>
 

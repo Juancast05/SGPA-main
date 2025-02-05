@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ficha.css">
-    <title>Fichas</title>
+    <title>Registrar Ficha</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
 
                 <ul class="list_show">
                     <li class="list_inside">
-                        <a href="./registrar_ficha.php" class="nav_link nav_link--inside">Registrar</a>
+                        <a href="#" class="nav_link nav_link--inside">Registrar</a>
                     </li>
 
                     <li class="list_inside">
@@ -46,7 +46,7 @@
                     </li>
 
                     <li class="list_inside">
-                        <a href="./listado_ficha.php" class="nav_link nav_link--inside">Ver listado</a>
+                        <a href="listado_ficha.php" class="nav_link nav_link--inside">Ver listado</a>
                     </li>
 
                 </ul>
@@ -54,9 +54,25 @@
             </li>
         </ul>
     </nav>
+    <br><br><br>
+    <h1>Registrar Ficha</h1>
+    <form action="./controlador_ficha.php" method="POST">
+        <div class="form-group">
+            <div>
+                <label for="">Número de ficha</label><br>
+                <input type="text" name="Numero_ficha"><br>
+            </div>
 
+            <div>
+                <label for="">Descripcion de la ficha</label><br>
+                <input type="text" name="Descripcion_ficha"><br>
+            </div>
+
+        </div>
+        <input type="submit" name="RegistrarFicha" value="Registrar Ficha">
+    </form>
 
     <script src="ficha.js"></script>
 </body>
 
-</html>
+</html> 

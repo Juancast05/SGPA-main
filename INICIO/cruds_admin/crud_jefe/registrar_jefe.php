@@ -12,9 +12,9 @@
 
     <div class="carousel">
         <div class="carousel-images">
-            <img src="./assets/img/img1.jpg" alt="Imagen 1">
-            <img src="./assets/img/oriente-antioqueno.jpg" alt="Imagen 2">
-            <img src="./assets/img/sena1.jpg" alt="Imagen 3">
+            <img src="../../img/img1.jpg" alt="Imagen 1">
+            <img src="../../img/oriente-antioqueno.jpg" alt="Imagen 2">
+            <img src="../../img/sena1.jpg" alt="Imagen 3">
         </div>
     </div>
 
@@ -42,11 +42,11 @@
                     </li>
 
                     <li class="list_inside">
-                        <a href="editar_practicante.php" class="nav_link nav_link--inside">Editar</a>
+                        <a href="editar_jefe.php" class="nav_link nav_link--inside">Editar</a>
                     </li>
 
                     <li class="list_inside">
-                        <a href="listado_practicante.php" class="nav_link nav_link--inside">Ver listado</a>
+                        <a href="listado_jefe.php" class="nav_link nav_link--inside">Ver listado</a>
                     </li>
 
                 </ul>
@@ -56,16 +56,16 @@
     </nav>
     <br><br><br>
     <h1>Registrar Jefes</h1>
-    <form action="./controlador_practicante.php" method="POST">
+    <form action="./controlador_jefe.php" method="POST">
         <div class="form-group">
             <div>
                 <label for="">Nombres del Jefe:</label><br>
-                <input type="text" name="Nombre_Practicante"><br>
+                <input type="text" name="Nombre_jefe"><br>
             </div>
 
             <div>
                 <label for="">Apellidos del Jefe:</label><br>
-                <input type="text" name="Apellido_Practicante"><br>
+                <input type="text" name="Apellido_jefe"><br>
             </div>
 
             <div>
