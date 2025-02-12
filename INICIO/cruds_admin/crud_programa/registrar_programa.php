@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="programa.css">
-    <title>Programa</title>
+    <title>Registrar</title>
 </head>
 
 <body>
@@ -18,7 +18,6 @@
         </div>
     </div>
 
-
     <button class="toggle-btn" id="toggleMenu">☰</button>
 
     <nav class="nav">
@@ -29,33 +28,43 @@
                     <a href="/SGPA/INICIO/admin.html" class="nav_link">Inicio</a>
                 </div>
             </li>
-
             <li class="list_item list_item--click">
                 <div class="list_button list_button--click">
                     <img src="./assets/gestion.svg" alt="" class="list_img">
                     <a href="#" class="nav_link">Gestión de programas</a>
                     <img src="./assets/arrow.svg" alt="" class="list_arrow">
                 </div>
-
                 <ul class="list_show">
                     <li class="list_inside">
                         <a href="./registrar_programa.php" class="nav_link nav_link--inside">Registrar</a>
                     </li>
-
                     <li class="list_inside">
                         <a href="./editar_programa.php" class="nav_link nav_link--inside">Editar</a>
                     </li>
-
                     <li class="list_inside">
                         <a href="./listado_programa.php" class="nav_link nav_link--inside">Ver listado</a>
                     </li>
-
                 </ul>
-
             </li>
         </ul>
     </nav>
 
+    <div class="content">
+        <h1>Registrar Programa</h1>
+        <form action="./controlador_programa.php" method="POST">
+            <div class="form-group">
+                <div class="form-input">
+                    <label for="Nombre_Programa">Nombres del Programa:</label>
+                    <input type="text" name="Nombre_Programa" id="Nombre_programa" required>
+                </div>
+                <div class="form-input">
+                    <label for="Descripción_Programa">Descripcion del Programa:</label>
+                    <input type="text" name="Descripcion_Programa" id="Descripcion_programa" required>
+                </div>
+            </div>
+            <input type="submit" name="RegistrarPrograma" value="Registrar Programa">
+        </form>
+    </div>
 
     <script src="programa.js"></script>
 </body>
