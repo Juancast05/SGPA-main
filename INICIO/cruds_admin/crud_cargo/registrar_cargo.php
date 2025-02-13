@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cargo.css">
-    <title>Cargo</title>
+    <link rel="stylesheet" href="area.css">
+    <title>Registrar</title>
 </head>
 
 <body>
@@ -32,13 +32,13 @@
             <li class="list_item list_item--click">
                 <div class="list_button list_button--click">
                     <img src="./assets/gestion.svg" alt="" class="list_img">
-                    <a href="#" class="nav_link">Gestión del área</a>
+                    <a href="#" class="nav_link">Gestión del Área</a>
                     <img src="./assets/arrow.svg" alt="" class="list_arrow">
                 </div>
 
                 <ul class="list_show">
                     <li class="list_inside">
-                        <a href="./registrar_cargo.php" class="nav_link nav_link--inside">Registrar</a>
+                        <a href="#" class="nav_link nav_link--inside">Registrar</a>
                     </li>
 
                     <li class="list_inside">
@@ -46,12 +46,30 @@
                     </li>
 
                     <li class="list_inside">
-                        <a href="./listado_cargo.php" class="nav_link nav_link--inside">Ver listado</a>
+                        <a href="listado_cargo.php" class="nav_link nav_link--inside">Ver listado</a>
                     </li>
+
                 </ul>
+
             </li>
         </ul>
     </nav>
+    <br><br><br>
+    <h1>Registrar Cargo</h1>
+    <form action="./controlador_cargo.php" method="POST">
+        <div class="form-group">
+            <div>
+                <label for="">Nombree del Cargo:</label><br>
+                <input type="text" name="Nombre_Cargo"><br>
+            </div>
+
+            <div>
+                <label for="">Descripción del Cargo:</label><br>
+                <input type="text" name="Descripcion_Cargo"><br>
+            </div>
+        </div>
+        <input type="submit" name="registrarCargo" value="Registrar Cargo">
+    </form>
     <script src="cargo.js"></script>
 </body>
-</html>
+</html> 
