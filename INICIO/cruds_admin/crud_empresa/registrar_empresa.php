@@ -59,31 +59,31 @@
     <form action="./controlador_empresa.php" method="POST">
     <div class="form-group">
             <div>
-                <label for="">Nombre de la empresa:</label><br>
-                <input type="text" name="Nombre_empresa"><br>
+                <label for="">Nombre de la Empresa:</label><br>
+                <input type="text" name="Nombre_Empresa"><br>
             </div>
 
             <div>
-                <label for="">NIT de la empresa:</label><br>
-                <input type="text" name="NIT"><br>
+                <label for="">NIT de la Empresa:</label><br>
+                <input type="number" name="NIT"><br>
             </div>
 
             <div>
-                <label for="">Correo de la empresa:</label><br>
-                <input type="email" name="Correo_empresa"><br>
+                <label for="">Correo de la Empresa:</label><br>
+                <input type="text" name="Correo_Empresa"><br>
             </div>
 
             <div><label for="">Teléfono de la empresa:</label><br>
-                <input type="text" name="Telefono_empresa"><br>
+                <input type="text" name="Telefono_Empresa"><br>
             </div>
 
             <div>
                 <label for="">Dirección de la empresa:</label><br>
-                <input type="text" name="Direccion_empresa"><br>
+                <input type="text" name="Direccion"><br>
             </div>
 
         </div>
-        <input type="submit" name="RegistrarEmpresa" value="Registrar Empresa">
+        <input type="submit" name="registrarEmpresa" value="Registrar Empresa">
     </form>
 
     <script src="empresa.js"></script>

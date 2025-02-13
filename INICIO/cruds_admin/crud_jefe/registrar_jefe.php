@@ -55,66 +55,32 @@
         </ul>
     </nav>
     <br><br><br>
-    <h1>Registrar Jefes</h1>
+    <h1>Registrar Coformadores</h1>
     <form action="./controlador_jefe.php" method="POST">
         <div class="form-group">
             <div>
-                <label for="">Nombres del Jefe:</label><br>
-                <input type="text" name="Nombre_jefe"><br>
+                <label for="">Nombres del Coformador:</label><br>
+                <input type="text" name="Nombre_Coformador"><br>
             </div>
 
             <div>
-                <label for="">Apellidos del Jefe:</label><br>
-                <input type="text" name="Apellido_jefe"><br>
-            </div>
-
-            <div>
-                <label for="">Tipo de identificación:</label><br>
-                <input type="text" name="Tipo_Identificacion"><br>
-            </div>
-
-            <div><label for="">Identificación:</label><br>
-                <input type="text" name="Identificacion"><br>
-            </div>
-
-            <div>
-                <label for="">Fecha de nacimiento:</label><br>
-                <input type="date" name="Fecha_Nacimiento"><br>
-            </div>
-
-            <div>
-                <label for="">País de nacimiento:</label><br>
-                <input type="text" name="Pais_Nacimiento"><br>
-            </div>
-
-            <div>
-                <label for="">Departamento de nacimiento:</label><br>
-                <input type="text" name="Departamento_Nacimiento"><br>
-            </div>
-
-            <div>
-                <label for="">Ciudad de nacimiento:</label><br>
-                <input type="text" name="Ciudad_Nacimiento"><br>
+                <label for="">Apellidos del Coformador:</label><br>
+                <input type="text" name="Apellido_Coformador"><br>
             </div>
 
             <div>
                 <label for="">Correo:</label><br>
-                <input type="email" name="Correo_Personal"><br>
-            </div>
-
-            <div>
-                <label for="">Correo Sena:</label><br>
-                <input type="email" name="Correo_Sena"><br>
+                <input type="text" name="Correo_Coformador"><br>
             </div>
 
             <div>
                 <label for="">Teléfono:</label><br>
-                <input type="text" name="Telefono"><br>
+                <input type="number" name="Telefono"><br>
             </div>
 
 
         </div>
-        <input type="submit" name="RegistrarJefe" value="Registrar Jefe">
+        <input type="submit" name="RegistrarCoformador" value="Registrar Coformador">
     </form>
 
     <script src="jefe.js"></script>

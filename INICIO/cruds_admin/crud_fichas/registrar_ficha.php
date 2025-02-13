@@ -60,16 +60,16 @@
         <div class="form-group">
             <div>
                 <label for="">Número de ficha</label><br>
-                <input type="text" name="Numero_ficha"><br>
+                <input type="number" name="Numero_Ficha"><br>
             </div>
 
             <div>
                 <label for="">Descripcion de la ficha</label><br>
-                <input type="text" name="Descripcion_ficha"><br>
+                <input type="text" name="Descripcion_Ficha"><br>
             </div>
 
         </div>
-        <input type="submit" name="RegistrarFicha" value="Registrar Ficha">
+        <input type="submit" name="registrarFicha" value="Registrar Ficha">
     </form>
 
     <script src="ficha.js"></script>
